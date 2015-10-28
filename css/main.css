@@ -156,6 +156,55 @@ h1 {
     margin: 0 0 1.6rem;
   }
 
+  .micro {
+    font-size: 0.790rem;
+    line-height: 1.4;
+  }
+
+  .milli {
+    font-size: 0.8889rem;
+    line-height: 1.4;
+  }
+
+  .kilo {
+    font-size: 1rem;
+    font-weight: normal;
+    line-height: 1.4;
+  }
+
+  .mega {
+    font-size: 1.125rem;
+    line-height: 1.4;
+  }
+
+  .giga {
+    font-size: 1.265rem;
+    line-height: 1.4;
+  }
+
+  .tera {
+    font-size: 1.423rem;
+    line-height: 1.4;
+  }
+
+  .exa {
+    font-size: 1.802rem;
+    line-height: 1.4;
+  }
+
+  .zetta {
+    font-size: 2.027rem;
+    text-align: center;
+    font-weight: normal;
+    line-height: 1.4;
+  }
+
+  .yotta {
+    font-size: 2.281rem;
+    text-align: center;
+    line-height: 1.4;
+  }
+
 
   h1 {
     text-align: center;
@@ -198,5 +247,54 @@ h1 {
   .giga, .tera, .exa, .zetta,
   .yotta, ul, ol, dl, dd, figure, {
     margin: 0 0 1.7rem;
+  }
+
+  .micro {
+    font-size: 0.790rem;
+    line-height: 1.5;
+  }
+
+  .milli {
+    font-size: 0.8889rem;
+    line-height: 1.5;
+  }
+
+  .kilo {
+    font-size: 1rem;
+    font-weight: normal;
+    line-height: 1.5;
+  }
+
+  .mega {
+    font-size: 1.125rem;
+    line-height: 1.5;
+  }
+
+  .giga {
+    font-size: 1.265rem;
+    line-height: 1.5;
+  }
+
+  .tera {
+    font-size: 1.423rem;
+    line-height: 1.5;
+  }
+
+  .exa {
+    font-size: 1.802rem;
+    line-height: 1.5;
+  }
+
+  .zetta {
+    font-size: 2.027rem;
+    text-align: center;
+    font-weight: normal;
+    line-height: 1.5;
+  }
+
+  .yotta {
+    font-size: 2.281rem;
+    text-align: center;
+    line-height: 1.5;
   }
 }
