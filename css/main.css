@@ -81,7 +81,7 @@ h1 {
 .nav-top ul {
   list-style-type: none;
   margin: 0;
-  padding: 1em 0;
+  padding:0;
 }
 
 .nav-top li {
@@ -108,6 +108,10 @@ h1 {
   color: white;
 }
 
+.title {
+  background-color: lightgrey;
+  padding: 2em;
+}
 .back {
   background-color: grey;
   padding: none;
@@ -120,6 +124,13 @@ h1 {
   padding: none;
 }
 
+.img {
+  padding: 1em;
+}
+
+.pad {
+  padding: 0 0.5em;
+}
 
 @media only screen and (min-width: 20em) {
 
