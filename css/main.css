@@ -22,12 +22,51 @@ body {
   margin: 0;
 }
 
-.kilo {
-  font-size: 1rem;
+h1, h2, h3, h4, h5, h6,
+p, ul, ol, dl, dd, figure,
+blockquote, details, hr,
+fieldset, pre, table {
+  margin: 0 0 1.5rem;
 }
 
-h5 {
+.micro {
+  font-size: 0.790rem;
+}
+
+.milli {
+  font-size: 0.8889rem;
+}
+
+.kilo {
+  font-size: 1rem;
+  font-weight: normal;
+}
+
+.mega {
   font-size: 1.125rem;
+}
+
+.giga {
+  font-size: 1.265rem;
+}
+
+.tera {
+  font-size: 1.423rem;
+}
+
+.exa {
+  font-size: 1.802rem;
+}
+
+.zetta {
+  font-size: 2.027rem;
+  text-align: center;
+  font-weight: normal;
+}
+
+.yotta {
+  font-size: 2.281rem;
+  text-align: center;
 }
 
 h1 {
@@ -64,6 +103,13 @@ h1 {
 
 @media only screen and (min-width: 20em) {
 
+  h1, h2, h3, h4, h5, h6,
+  p, ul, ol, dl, dd, figure,
+  blockquote, details, hr,
+  fieldset, pre, table {
+    margin: 0 0 1.6rem;
+  }
+
   h1 {
     text-align: center;
   }
@@ -99,5 +145,11 @@ h1 {
 
   .nav-top {
     text-align: left;
+  }
+
+  .micro, .milli, .kilo, .mega,
+  .giga, .tera, .exa, .zetta,
+  .yotta, ul, ol, dl, dd, figure, {
+    margin: 0 0 1.7rem;
   }
 }
