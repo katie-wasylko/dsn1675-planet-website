@@ -8,11 +8,6 @@ html {
   background: grey;
 }
 
-h1 {
-  text-align: center;
-  padding: 0 1m;
-}
-
 .img-flex {
   width: 100%;
   display: block;
@@ -27,7 +22,7 @@ h1 {
 
 .nav-top li {
   color: lightblue;
-  padding: 1em;
+  padding: 0 1em;
 }
 
 .nav-top a,
@@ -51,7 +46,8 @@ h1 {
 
 .title {
   background-color: lightgrey;
-  padding: 1em;
+  padding: 0.8em;
+  text-align: center;
 }
 
 
@@ -65,6 +61,10 @@ h1 {
 }
 
 .pad {
+  padding: 0 0.5em;
+}
+
+.pads {
   padding: 0 1em;
 }
 
@@ -87,6 +87,9 @@ footer{
   color: blue;
 }
 
+.hpad {
+  padding: 0 0.5em;
+}
 @media only screen and (min-width: 20em) {
 
   h1 {
