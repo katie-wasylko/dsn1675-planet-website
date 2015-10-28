@@ -85,7 +85,8 @@ h1 {
 }
 
 .nav-top li {
-  color: blue;
+  color: lightblue;
+  padding: 1em;
 }
 
 .nav-top a,
@@ -95,12 +96,28 @@ h1 {
   color: blue;
 }
 
+.current {
+  background-color: blue;
+  color: white;
+  padding: 0.5em;
+}
+
+.curent a,
+.current:link,
+.current:visited {
+  color: white;
+}
+
 .back {
-  background-color: lightgrey;
+  background-color: grey;
+  padding: none;
+  margin: none;
+
 }
 
 .chara {
   background-color: lightgrey;
+  padding: none;
 }
 
 
